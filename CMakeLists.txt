@@ -13,7 +13,7 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
   message_generation
 )
-
+merge test 2
 
 # Generate messages in the 'msg' folder
 add_message_files(
