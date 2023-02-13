@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 3.0.2)
-project(beginner_tutorials) merge test
+cmake_minimum_required(VERSION 3.0.2 test)
+project(beginner_tutorials)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
@@ -13,7 +13,7 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
   message_generation
 )
-merge test 2
+
 
 # Generate messages in the 'msg' folder
 add_message_files(
